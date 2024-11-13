@@ -1,0 +1,186 @@
+
+
+.un .container .text{
+    background-color:rgba(30,158,146,255);
+    height: 500px;
+    color: white;
+    font-size: 20px;
+}
+.un .container .text P{
+    margin-top: 50px;
+}
+/*------------------------- section deux -------------------------*/
+.deux .row .info{
+    background-color: rgba(30,158,146,255);
+    height: 500px;
+    padding-left: 15px;
+}
+.deux .row .info .d-flex img{
+    margin-right: 15px;
+    
+}
+.deux .row .info img{
+    width: 50px;
+}
+.deux .row .phrase{
+    height: 500px;
+    border: 2px solid rgba(30,158,146,255);
+}
+.deux .row .phrase h1{
+    text-align: center;
+}
+.deux .row .phrase p{
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.deux .row .phrase a{
+    margin-top: 30px;
+    text-align: center;
+    
+}
+@media screen and (max-width:720px){
+    .deux .row .info{
+        background-color: rgba(30,158,146,255);
+        height: 500px;
+        /* padding-left: 10px; */
+        width: 100%;
+        margin: auto;
+    }
+    .deux .row .info .d-flex img{
+        margin-right: 5px;
+        
+    }
+    .deux .row .info img{
+        width: 35px;
+    }
+
+    .deux .row .phrase{
+        height: 500px;
+        border: 2px solid rgba(30,158,146,255);
+        width: 100%;
+        margin: auto;
+        margin-top: 10px;
+    }
+    
+}
+
+/*------------------ section trois -------------------*/
+
+.trois .col{
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+    margin-top: 30px;
+}
+.trois h1{
+    margin-left: 40px;
+}
+.trois .col img{
+    border: 1px solid darkcyan;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    border-radius: 10px;
+    
+}
+
+@media screen and (max-width:720px){
+    .trois .col{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+    .trois .col img{
+        width: 200px;
+        margin: auto;
+        border: 1px solid darkcyan;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        border-radius: 10px;
+        
+    }
+}
+/*------------- section quatre ---------------------*/
+.quatre{
+    background-color: #f44336;
+}
+.quatre .container h1{
+    color: white;
+    margin-bottom: 50px;
+}
+.quatre p{
+    color: white;
+}
+.quatre .fw{
+    font-size: 30px;
+    margin-right: 10px;
+}
+/*------------------- section cinq -------------------------*/
+.cinq .col{
+    display: flex;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+}
+.cinq .jane{
+    border: 1px solid darkcyan;
+    text-align: center;
+    /* margin: 1px; */
+    padding: 15px;
+    width: 250px;
+
+}
+@media screen and (max-width:720px){
+    .cinq .col{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .cinq .jane{
+        border: 1px solid darkcyan;
+        text-align: center;
+        padding: 10px;
+        width: 200px;
+        margin: auto;
+        margin-top: 10px;
+    
+    }
+}
+/* ----------------------section six ---------------------*/
+.six .row{
+    background-color: #f44336;
+}
+.six .row h1{
+    margin-left: 30px;
+    color: white;
+}
+.six .row .para{
+    margin-right: 50px;
+    margin-left: 30px;
+    color: white;
+}
+.six .row .lign p, .btn{
+    color: white;
+}
+
+@media screen and (max-width:720px){
+    
+}
+/*-------------------- section sept ----------*/
+.sept .image{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    padding: 30px;
+}
+.sept .row{
+    background-color: rgb(215, 239, 250);
+}
+.sept .row .btn{
+    text-align: center;
+}
+@media screen and (max-width:720px){
+    
+}
